@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+option{
+    @apply text-sm rounded-md  
+}
+.buttonAnime{
+@apply animate-pulse transition-all
+}
+.active{
+    @apply  top-0 animate-[showMsgAnime_.2s_ease]
+}
+.inactive{
+    @apply  top-[-20%] animate-[exitMsgAnime_.2s_ease]
+}
